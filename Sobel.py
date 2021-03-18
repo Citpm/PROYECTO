@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def sobel(image,kernel):
+def sobel(image, kernel):
     
     image =cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     fig, ax =plt.subplots(1, figsize=(10,8))
