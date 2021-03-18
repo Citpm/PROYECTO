@@ -19,7 +19,7 @@ def a2(image):
 if __name__ == '__main__':
 
 
-    x = '1'
+    x = '0'
     if x == '1':
         image = cv2.imread('imagen.jpg')
         kernel = np.array([[0, -1, 0],
