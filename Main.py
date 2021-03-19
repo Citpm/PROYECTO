@@ -20,13 +20,4 @@ if __name__ == '__main__':
 
 
     x = '0'
-    if x == '1':
-        image = cv2.imread('imagen.jpg')
-        kernel = np.array([[0, -1, 0],
-                       [-1, 5, -1],
-                       [0, -1, 0]])
-        output = a1(image, kernel)
-        plt.show()
-    if x == '2':
-        image = cv2.imread('imagen.jpg')
-        output = a2(image)
+    
