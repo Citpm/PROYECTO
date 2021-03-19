@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import detectarbordes
 import filtro_promedio
 from filtro_sharpen import sharp
+from Sobel import sobel
 
 
 def a1(image, kernel):
@@ -20,4 +21,3 @@ if __name__ == '__main__':
 
 
     x = '0'
-    
